@@ -3,8 +3,16 @@
   "description": "An example map where people can send planes to different places.",
   "version": "1.0.0",
   "main": "main.js",
-  "author": "Philip Curley",
+  "author": {
+    "name": "Philip Curley",
+    "email": "philip@interactiveknowledge.com"
+  },
   "license": "MIT",
+  "keywords": [
+    "svg",
+    "d3",
+    "websocket"
+  ],
   "scripts": {
     "build": "mkdir -p dist && cp -r static/* dist/ && cp -r src/styles dist/ && webpack",
     "start": "NODE_ENV=production node main.js",
