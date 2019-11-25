@@ -1,0 +1,69 @@
+body {
+  font-family: 'M PLUS Rounded 1c', 'Roboto', sans-serif !important;
+  font-weight: 300;
+  color: #000;
+  line-height: 200% !important;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar-light .navbar-toggler,.navbar-dark .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+footer p,footer a,footer a:hover {
+    font-size: 0.9em;
+}
+
+h1, h2, h3, h4 {
+    line-height: 160%;
+}
+
+a, a:hover, a:focus {
+}  
+
+@media(max-width: 576px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+section {
+  display: block;
+}
+
+#map {
+  background-color: #73b6e6;
+}
+
+.countries {
+  fill: #b0d0ab;
+  stroke: #6cb0e0;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.airports, .points {
+  fill: #036;
+  stroke: #6cb0e0;
+  stroke-width: 0.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.route {
+  stroke: #fff;
+  fill: none;
+}

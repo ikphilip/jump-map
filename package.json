@@ -1,0 +1,25 @@
+{
+  "name": "map-jump",
+  "description": "An example map where people can send planes to different places.",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Philip Curley",
+  "license": "MIT",
+  "scripts": {
+    "build": "mkdir -p dist && cp -r static/* dist/ && cp -r src/styles dist/ && webpack",
+    "start": "NODE_ENV=production node main.js",
+    "start-dev": "NODE_ENV=development PORT=3000 node main.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=12",
+    "yarn": "1.x"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-array.v1.min.js"></script>
+    <script src="https://d3js.org/d3-geo.v1.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+    <link rel="stylesheet" type="text/css" href="/styles/css/style.css" />
+  </head>
+  <body>
+    <section id="map"></section>
+    <section id="form">
+      <form>
+        <select name='destination'>
+          <option value="-1">-- Select a city --</option>
+          <option value="[47.516667, -18.933333]">antananarivo</option>
+          <option value="[116.383333, 39.916667]">beijing</option>
+          <option value="[24.9375, 60.170833]">helsinki</option>
+          <option value="[-85.585833,42.29]">kalamazoo</option>
+          <option value="[-165.399444, 64.503889]">nome</option>
+          <option value="[28.188056, -25.746111]">pretoria</option>
+          <option value="[-70.666667, -33.45]">santiago</option>
+          <option value="[151.209444,-33.865]">sydney</option>
+        </select>
+        <label for='destination'>Choose a place to send something</label>
+        <input type='submit' name='Send' value='Send' />
+      </form>
+    </section>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
